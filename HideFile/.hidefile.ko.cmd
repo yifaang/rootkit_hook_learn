@@ -1,0 +1,1 @@
+cmd_/home/yfsec/rootkit/Linux_kernel_modules/HideFile/hidefile.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/yfsec/rootkit/Linux_kernel_modules/HideFile/hidefile.ko /home/yfsec/rootkit/Linux_kernel_modules/HideFile/hidefile.o /home/yfsec/rootkit/Linux_kernel_modules/HideFile/hidefile.mod.o;  true
