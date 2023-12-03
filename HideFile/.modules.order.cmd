@@ -1,1 +1,0 @@
-cmd_/home/yfsec/rootkit/Linux_kernel_modules/HideFile/modules.order := {   echo /home/yfsec/rootkit/Linux_kernel_modules/HideFile/hidefile.ko; :; } | awk '!x[$$0]++' - > /home/yfsec/rootkit/Linux_kernel_modules/HideFile/modules.order

@@ -1,1 +1,0 @@
-cmd_/home/yfsec/rootkit/Linux_kernel_modules/Syscall_Hook/lkm.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/yfsec/rootkit/Linux_kernel_modules/Syscall_Hook/lkm.ko /home/yfsec/rootkit/Linux_kernel_modules/Syscall_Hook/lkm.o /home/yfsec/rootkit/Linux_kernel_modules/Syscall_Hook/lkm.mod.o;  true

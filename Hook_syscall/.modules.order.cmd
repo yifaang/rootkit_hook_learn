@@ -1,1 +1,0 @@
-cmd_/home/yfsec/rootkit/Linux_kernel_modules/Syscall_Hook/modules.order := {   echo /home/yfsec/rootkit/Linux_kernel_modules/Syscall_Hook/lkm.ko; :; } | awk '!x[$$0]++' - > /home/yfsec/rootkit/Linux_kernel_modules/Syscall_Hook/modules.order

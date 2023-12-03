@@ -1,1 +1,0 @@
-cmd_/home/yfsec/rootkit/Linux_kernel_modules/HideFile/hidefile.mod := printf '%s\n'   hidefile.o | awk '!x[$$0]++ { print("/home/yfsec/rootkit/Linux_kernel_modules/HideFile/"$$0) }' > /home/yfsec/rootkit/Linux_kernel_modules/HideFile/hidefile.mod
